@@ -1,0 +1,29 @@
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.grupobdm.acreditacioneet" version="1.0.0">
+
+    <name>Acreditación</name>
+
+    <description>Acreditación del Personal</description>
+
+    <author href="http://grupobdm.com" email="info@grupobdm.com">Grupo BDM Developer Team</author>
+
+    <content src="index.html"/>
+
+    <preference name="DisallowOverscroll" value="true"/>
+    <preference name="android-minSdkVersion" value="14"/>
+
+    <icon src="icon.png"/>
+
+    <platform name="android">
+        <preference name="orientation" value="landscape" />
+    </platform>
+    
+    <platform name="ios" >
+        <preference name="orientation" value="landscape" />
+        <preference name="fullscreen" value="true" />
+    </platform>
+
+    <platform name="windows">
+        <preference name="orientation" value="landscape" />
+    </platform>
+
+</widget>
